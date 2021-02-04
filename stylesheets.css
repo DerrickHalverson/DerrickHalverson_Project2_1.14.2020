@@ -15,4 +15,27 @@
     padding: 0;
   
   }
+  .container {
+
+    font-family: "Raleway", sans-serif;
   
+    display: grid;
+  
+    grid-template-columns: 67% 33%;
+  
+    grid-template-rows: repeat(5, 0.1fr);
+  
+    grid-template-areas:
+  
+      "nav nav"
+  
+      "header header"
+  
+      "accommodations aside"
+  
+      "activities activities"
+  
+      "footer footer";
+  
+  }
+    
